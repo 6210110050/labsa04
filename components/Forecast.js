@@ -70,8 +70,10 @@ export default function Forecast(props) {
       <View style={styles.main_box}>
       <View style={styles.main_holder_view}>
         <View><Text style={styles.main_text}>{props.main}</Text>
-        <Text style={styles.des_text}>{props.description}</Text></View>
-  
+        <Text style={styles.des_text}>{props.description}</Text>
+        <Text style={styles.des_text}>Humid:{props.humidity}</Text>
+        
+  </View>
       </View>
       </View>
       <View style={styles.detail_box}>
