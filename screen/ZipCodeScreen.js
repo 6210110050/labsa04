@@ -32,9 +32,15 @@ const availableZipItems = [
 
 const styles = StyleSheet.create({
     zipItem: {
-    flex:1,
-    flexDirection:'row',
-    justifyContent:'space-between'
+        flex:1 ,
+        height:"100%",
+        width:"80%",
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
+        borderRadius:10,
+        alignItems:"center",
+        flexDirection:"row",
+        marginLeft:"10%",
+        marginTop:"3.5%",
     },
     zipPlace: {
     flex:1,
