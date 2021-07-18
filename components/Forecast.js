@@ -73,6 +73,7 @@ export default function Forecast(props) {
         <Text style={styles.des_text}>{props.description}</Text>
         <Text style={styles.des_text}>Humid:{props.humidity}</Text>
         <Text style={styles.des_text}>Min temp:{props.temp_min}</Text>
+        <Text style={styles.des_text}>Max temp:{props.temp_max}</Text>
         
   </View>
       </View>
